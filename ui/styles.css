@@ -1,0 +1,135 @@
+/* the parent element within the root(document body) */
+.main {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  flex-direction: column;
+  min-height: min-content;
+  overflow: auto;
+}
+
+/* styling applied to all zephyr ui components */
+.zephyr-ui {
+  transition: none;
+  max-height: min-content;
+}
+
+/* styling for the scrollbar */
+.zephyr-ui::-webkit-scrollbar,
+.zephyr-ui-accordian-content::-webkit-scrollbar {
+  border: 1px solid;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+.zephyr-ui:focus {
+  outline: none;
+}
+
+/* styling for the scrollbar thumb */
+.zephyr-ui::-webkit-scrollbar-thumb,
+.zephyr-ui-accordian-content::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0 2px inset;
+}
+
+/* styling for the scrollbar track */
+.zephyr-ui::-webkit-scrollbar-track,
+.zephyr-ui-accordian-content::-webkit-scrollbar-track {
+  opacity: 0.1;
+}
+
+.zephyr-ui::-webkit-scrollbar-corner,
+.zephyr-ui-accordian-content::-webkit-scrollbar-corner {
+  background: auto;
+}
+
+/* .zephyr ui select styling */
+select.zephyr-ui {
+  font-size: min(1rem, 5vmin);
+  appearance: none;
+}
+select.zephyr-ui * {
+  border-radius: 10px;
+}
+
+/* styling for div based zephyr ui components */
+div.zephyr-ui {
+  background: auto;
+}
+
+button.zephyr-ui {
+  border: 2px solid;
+  font-size: 1.25em;
+  transition: all 0.25s;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+button.zephyr-ui:active {
+  transform: scale(0.9);
+}
+
+.zephyr-ui.table {
+  border-spacing: 0;
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  table-layout: fixed;
+}
+.zephyr-ui.table * {
+  border-radius: 0;
+  padding: 5px;
+}
+td, th {
+  display: table-cell !important;
+}
+/* zephyr ui prebuilt component styling */
+.zephyr-ui-accordian-label {
+  display: block;
+  margin: 0;
+  user-select: none;
+}
+
+.zephyr-ui-accordian-content {
+  border-radius: 0;
+  margin: 0 5px;
+  padding: 10px;
+  overflow: hidden;
+  transition: height 0.75s;
+  box-sizing: border-box;
+  scrollbar-gutter: stable;
+  border: none;
+  max-height: 50vh;
+  height: min-content;
+  overflow-y: auto;
+}
+
+.zephyr-ui.navbar {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  overflow-x: auto;
+  height: 4rem;
+  min-height: 4rem;
+  overflow-y: hidden;
+  max-width: 100vw;
+}
+.zephyr-ui.navbar > * {
+  padding: 5px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.zephyr-ui.navbar > *:hover {
+  background: rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+}

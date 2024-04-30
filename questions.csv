@@ -1,0 +1,690 @@
+Q: A precise sequence of instructions for processes that can be implemented in a programming language and executed by a computer.
+Algorithm
+
+cryptography
+Algorithm
+IP
+Pseudocode
+
+Q: one or more programming language statements that control the flow of a computer program. Examples: If/Else structure or a loop structure.
+Control Structure
+
+NOT gate
+protocol
+network
+Control Structure
+
+Q: a machine that processes information under the control of a program.
+Computer
+
+Pseudocode
+lossy compression
+Computer
+Internet
+
+Q: sequence of instructions that control the computer. To run, it must be loaded into the computer's memory where the CPU executes it one instruction at a time.
+Program
+
+modeling
+raster
+Program
+lossy compression
+
+Q: the computer's electronic and mechanical components.
+Hardware
+
+render
+General purpose computer
+Hardware
+integrated circuit (IC)
+
+Q: the programs that control computers
+Software
+
+Data Sources
+Data Mining
+blacklist
+Software
+
+Q: a computer that can run many different programs (e.g. a smartphone).
+General purpose computer
+
+megapixel
+General purpose computer
+Query
+CPU
+
+Q: a computer that has a fixed program ( e.g. a calculator, a watch, a car's brakes)
+Special purpose computer
+
+Binary Number
+data network
+Data Abstraction
+Special purpose computer
+
+Q: physical device used to store information for use in a computer or other digital electronic device( e.g. disk drive, flash drive)
+Memory
+
+spam
+CPU
+Memory
+Data Sources
+
+Q: Random Access Memory- also called main memory stores the computer's programs and data temporarily while power is on.
+RAM
+
+RAM
+NOT gate
+Abstraction
+OCR: optical character recognition
+
+Q: Central Processing Unit is the hardware that carries out the instructions of a computer program. It is made up of 3 main parts: the control unit (CU), the arithmetic and register. The CU processes the program's instructions, the ALU (arithmetic logic unit) performs the arithmetic and logic operations and the register stores intermediate data during program execution.
+CPU
+Byte
+Moore's Law
+CPU
+Variable
+
+Q: bring data and programs into the computer (e.g. mouse, keyboard)
+Input devices
+Input devices
+cryptography
+Moore's Law
+Integrated circuit
+
+Q: transmit data to other computers to users (e.g. printer, monitor, speaker)
+Output devices
+render
+TCP/IP ((Transmission Control Protocol/Internet Protocol)
+Output devices
+Internet
+
+Q: houses the computer's main electronic components
+Motherboard
+Motherboard
+Event-Driven Programming
+cryptography
+User Interface
+
+Q: the computer's electrical components are composed of these very tiny integrated circuits.
+Chips
+EDR
+Iteration/Repetition
+Chips
+cryptography
+
+Q: packed with millions of electronic components
+Integrated circuit
+Algorithm
+Moore's Law
+Integrated circuit
+network
+
+Q: a binary digit, the smallest unit of data, a 1 or a 0.
+Bit
+Output devices
+raster
+lossless compression
+Bit
+
+Q: is equal to 8 bits.
+Byte
+Control Structure
+Byte
+network
+General purpose computer
+
+Q: a programming language that is human readable (app inventor) and provides the programmer with easy to understand abstractions.
+High-level language
+Moore's Law
+Hardware
+High-level language
+ASCII
+
+Q: a programming language that is machine readable (binary code), closer to the machine hardware and provides abstractions that are difficult for the programmer to understand.
+Machine language (or low-level language)
+Machine language (or low-level language)
+Hardware
+Event-Driven Programming
+General purpose computer
+
+Q: a software that translates source code (human readable) into binary code.
+Compiler
+Algorithm
+Compiler
+Integrated circuit
+Moore's Law
+
+Q: program or group of programs designed for end users such as Firefox, Excel, Word, etc.
+Applications
+download
+Dossier
+Applications
+encryption
+
+Q: is a collection of computer software that manages hardware resources and provides common services for computer programs. MacOS, Windows, Android, Linux, iOS are examples.
+Operating System
+
+upload
+megapixel
+intellectual property
+Operating System
+
+Q: a general representation that stands for some collection of individual instances.
+Abstraction
+
+character
+Open standard
+Abstraction
+pixel
+
+Q: an abstraction that represents a single thing, e.g., the value 5 - something that doesn't change.
+Constant
+Constant
+data center
+OCR: optical character recognition
+render
+
+Q: A symbol that can be used to represent any number and is therefore more general and more abstract than a constant.
+Variable
+Compiler
+Abstraction
+RFID
+Variable
+
+Q: the practice of organizing and encapsulating certain data into a more general representation. An example would be storing the text 'hello' in a single variable rather than having numerous occurrences of 'hello' in a program.
+Data Abstraction
+Digital Detritus
+modeling
+Data Abstraction
+Hardware
+
+Q: the practice of organizing and encapsulating algorithms in named procedures that can then be invoked by name. An example would be the 'sqrt(x)', square root of x, which encapsulates the algorithm for calculating the square root of x.
+Procedural Abstraction
+Algorithm
+RFID
+Computational Artifact
+Procedural Abstraction
+
+Q: A repetition structure, iteration or loop, is used when a program needs to repeatedly process one or more instructions until some condition is met, at which time the loop ends.
+Iteration/Repetition
+Output devices
+Moore's Law
+Iteration/Repetition
+Database
+
+Q: In a selection structure, a question is asked, and depending on the answer, the program takes one of two courses of action, after which the program moves on to the next event.
+Selection
+World Wide Web
+HTTP (HyperText Transfer Protocol)
+Selection
+High-level language
+
+Q: The sequence control structure is simple a sequence of one or more statements in a computer program
+Sequence
+Sequence
+data
+blacklist
+Abstraction
+
+Q: a programming approach whereby the program's behavior is controlled by writing code that responds to various events that occur, such as Button clicks.
+Event-Driven Programming
+Event-Driven Programming
+download
+Algorithm
+Machine language (or low-level language)
+
+Q: a number written in the binary system, a system that uses only two digits, 0s and 1s.
+Binary Number
+data
+Compiler
+Binary Number
+network
+
+Q: in internet terminology, a generic term for a list of email addresses or IP addresses that are origination with known spammers
+blacklist
+blacklist
+Program
+intellectual property
+Abstraction
+
+Q: any symbol that requires one byte of storage
+character
+Output devices
+character
+protocol
+Control Structure
+
+Q: a metaphor for describing the non-physical terrain created by computer systems
+cyberspace
+modeling
+steganography
+High-level language
+cyberspace
+
+Q: distinct information that is formatted in a special way. Data exists in a variety of forms, like text on paper or bytes stored in electronic memory.
+data
+Open standard
+social networking
+Algorithm
+data
+
+Q: physical or virtual infrastructures used by enterprises to house computer, server and networking systems and components for the company's IT (information technology) needs
+data center
+General purpose computer
+data center
+Ad Hoc
+Byte
+
+Q: a telecommunications network which allows computers to exchange data
+data network
+data network
+Control Structure
+download
+disk drive
+
+Q: a randomly addressable and rewritable storage device
+disk drive
+disk drive
+Open standard
+digital signal processing: (DSP)
+character
+
+Q: refers to any property that is created using original thought. Traditional intellectual property include patents, copyrights, and trademarks.
+intellectual property
+cloud computing
+intellectual property
+megabyte
+Integrated circuit
+
+Q: The number of transistors per square inch on integrated circuits has doubled every year since the integrated circuit was invented.
+Moore's Law
+steganography
+megapixel
+Moore's Law
+Motherboard
+
+Q: a group of two or more computer systems linked together
+network
+whitelist
+raster
+network
+blacklist
+
+Q: a social structure made of nodes that are generally individuals or organizations. A social network represents relationships and flows between people, groups, organizations, animals, computers, or other information/knowledge processing entities
+social networking
+social networking
+Compiler
+Metadata
+OR gate
+
+Q: a generic name for a list of email address or IP addresses that are considered to be spam free
+whitelist
+whitelist
+Metadata
+OR gate
+Data Abstraction
+
+Q: everything designed into a device with which a human being may interact -- including display screen, keyboard, mouse, light pen, the appearance of a desktop, illuminated characters, etc.
+User Interface
+OR gate
+User Interface
+ASCII
+Byte
+
+Q: global public network of independent and autonomous networks that are governed by the Internet Protocol Suite.
+Internet
+data
+Selection
+Moore's Law
+Internet
+
+Q: An Internet application that is based on the HTTP protocol.
+World Wide Web
+Software
+OR gate
+World Wide Web
+lossless compression
+
+Q: a system of rules that govern the behavior of some system.
+protocol
+protocol
+Input devices
+lossy compression
+Applications
+
+Q: the suite a protocols that determine the behavior of the Internet.
+TCP/IP ((Transmission Control Protocol/Internet Protocol)
+Operating System
+OR gate
+TCP/IP ((Transmission Control Protocol/Internet Protocol)
+integrated circuit (IC)
+
+Q: the protocol that controls the behavior of the Web.
+HTTP (HyperText Transfer Protocol)
+Moore's Law
+Boolean
+HTTP (HyperText Transfer Protocol)
+Control Structure
+
+Q: a standard (such as TCP, HTTP) that is not owned or controlled by a private entity. It stands in contrast to 'proprietary' materials', which are owned or controlled by a private entity.
+Open standard
+Open standard
+social networking
+Compiler
+Motherboard
+
+Q: anything created by a human using a computer.
+Computational Artifact
+Metadata
+Computational Artifact
+Computer
+intellectual property
+
+Q: a visual (i.e. graphical) notation for expressing algorithms.
+flowchart
+flowchart
+megabyte
+Iteration/Repetition
+Encode
+
+Q: a true/false condition
+Boolean
+analog
+Machine language (or low-level language)
+OCR: optical character recognition
+Boolean
+
+Q: a notation for expressing algorithms, which is more precise that ordinary English but less formal than a programming language.
+Pseudocode
+Algorithm
+Pseudocode
+Ad Hoc
+RAM
+
+Q: a semiconductor device used to amplify or switch electronic signals and electrical power.
+transistor
+transistor
+flip flop (or latch)
+IP
+World Wide Web
+
+Q: an elementary building block of a digital circuit. Examples would be AND, OR, and NOT gates that perform basic digital operations.
+logic gate
+Query
+CPU
+Program
+logic gate
+
+Q: informally, a chip. It is an electronic circuit formed on a small piece of semiconducting material, that integrates billions of tiny transistors and logic gates.
+integrated circuit (IC)
+HTTP (HyperText Transfer Protocol)
+social networking
+integrated circuit (IC)
+Data Abstraction
+
+Q: a circuit with two inputs and one output defined such that its output is TRUE (or ON) when either or both of its inputs are TRUE (or ON).
+OR gate
+NOT gate
+Program
+lossless compression
+OR gate
+
+Q: a circuit with two inputs and one output defined such that its output is TRUE (or ON) only when both of its inputs are TRUE (or ON).
+AND gate
+Bit
+Data Sources
+AND gate
+lossless compression
+
+Q: a circuit with one input and one output defined such that its output is TRUE (or ON) when its input is FALSE (or OFF) and vice versa.
+NOT gate
+IP
+Boolean
+steganography
+NOT gate
+
+Q: a digital circuit that has two states, ON or OFF, that can be used to store a 1 or a 0. It is the fundamental unit of computer memory.
+flip flop (or latch)
+flip flop (or latch)
+Compiler
+Encode
+Data Abstraction
+
+Q: a code for representing English characters as numbers, with each letter assigned a number from 0 to 127
+ASCII
+Abstraction
+Binary Number
+ASCII
+Computational Artifact
+
+Q: comparable to grid computing, cloud computing relies on sharing resources rather than having local servers handle applications.
+cloud computing
+cloud computing
+Moore's Law
+RFID
+AND gate
+
+Q: the art of protecting information by transforming it into an unreadable format, called cipher text
+cryptography
+disk drive
+Iteration/Repetition
+social networking
+cryptography
+
+Q: any system based on discontinuous data or events. Computers are digital machines because at the basic level they can distinguish between just two values, 0 and 1.
+digital
+digital
+pixel
+raster
+cyberspace
+
+Q: a device or system that represents changing values as continuously variable physical quantities
+analog
+cryptography
+Computational Artifact
+analog
+Procedural Abstraction
+
+Q: refers to manipulating analog information
+digital signal processing: (DSP)
+integrated circuit (IC)
+HTTP (HyperText Transfer Protocol)
+network
+digital signal processing: (DSP)
+
+Q: to copy data (usually an entire file) from a main source to a peripheral device
+download
+download
+CPU
+cloud computing
+Compiler
+
+Q: data compression techniques in which no data is lost.
+lossless compression
+spam
+lossless compression
+Algorithm
+flowchart
+
+Q: data compression techniques in which some amount of data is lost. This technique attempts to eliminate redundant information.
+lossy compression
+flip flop (or latch)
+Hardware
+lossy compression
+Machine language (or low-level language)
+
+Q: used to describe data storage, 1,048,576 bytes (abbreviated MB)
+megabyte
+Open standard
+data center
+Digital Detritus
+megabyte
+
+Q: one million pixels, used in reference to the resolution of a graphics device
+megapixel
+megapixel
+Internet
+Open standard
+Chips
+
+Q: process of representing a real-world object of phenomenon as a set of mathematical equations.
+modeling
+modeling
+spam
+Abstraction
+Sequence
+
+Q: the branch of computer science that involves reading text from paper and translating the images into a form that the computer can manipulate
+OCR: optical character recognition
+Software
+digital signal processing: (DSP)
+Computer
+OCR: optical character recognition
+
+Q: short for a picture element, a single point in a graphic image
+pixel
+pixel
+Byte
+Data Abstraction
+modeling
+
+Q: the rectangular area of a display screen actually being used to display images
+raster
+raster
+Selection
+High-level language
+Machine language (or low-level language)
+
+Q: refers to the process of adding realism to a computer graphics by adding 3-D qualities, such as shadows and variations in color and shade.
+render
+CPU
+transistor
+render
+Motherboard
+
+Q: spam is electronic junk mail or junk newsgroup postings
+spam
+spam
+character
+RFID
+Program
+
+Q: the art and science of hiding information by embedding messages within other, seemingly harmless messages
+steganography
+Boolean
+steganography
+World Wide Web
+lossy compression
+
+Q: to transmit data from a computer to a bulletin board service, mainframe, or network.
+upload
+upload
+Algorithm
+raster
+Moore's Law
+
+Q: when used to describe programming, it means a quick fix for a problem, not usually the best example that will sustain an issue
+Ad Hoc
+User Interface
+World Wide Web
+Ad Hoc
+digital
+
+Q: a collection of information organized in such a way that a computer program can quickly select the desired pieces of data. Often abbreviated DB
+Database
+Input devices
+Database
+RFID
+Bit
+
+Q: process in which information is gathered and expressed in a summary form for purpose such as statistical analysis
+Data Aggregation
+Selection
+raster
+RAM
+Data Aggregation
+
+Q: a class of database applications that look for hidden patterns in a group that could be used to predict future behavior
+Data Mining
+Metadata
+Hardware
+Data Mining
+Abstraction
+
+Q: generically refers to a general place where data is stored and maintained
+Data Repository
+Data Repository
+download
+Iteration/Repetition
+whitelist
+
+Q: name given to the connection setup from a database to a server. The name is commonly used when creating a query to the database
+Data Sources
+disk drive
+Data Mining
+Pseudocode
+Data Sources
+
+Q: term used to describe unsightly debris that accrues as the result of the experience of digital living
+Digital Detritus
+EDR
+Digital Detritus
+Data Sources
+character
+
+Q: a collection of documents about a person, event, or subject
+Dossier
+Dossier
+Compiler
+Bit
+Data Mining
+
+Q: event data recorder
+EDR
+EDR
+General purpose computer
+upload
+whitelist
+
+Q: the phrase used to describe the method of preparing data for storage or transmission
+Encode
+Event-Driven Programming
+Dossier
+Encode
+Internet
+
+Q: the translation of the data into secret code
+encryption
+Data Abstraction
+lossless compression
+Binary Number
+encryption
+
+Q: an identifier for devices on a TCP/IP network
+IP
+IP
+protocol
+Dossier
+Data Aggregation
+
+Q: data about data; describes how and when and by whom a particular set of data was collected, and how data is formatted
+Metadata
+flowchart
+Metadata
+RAM
+World Wide Web
+
+Q: a request for information from a database
+Query
+Query
+encryption
+Bit
+Data Abstraction
+
+Q: radio frequency identification, similar to barcodes
+RFID
+RFID
+Control Structure
+analog
+megabyte

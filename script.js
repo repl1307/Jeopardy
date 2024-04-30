@@ -47,7 +47,7 @@ async function teamGame(){
     overflow: 'hidden'
   });
   
-  const grid = new JeopardyGrid(10, 9, questions);
+  const grid = new JeopardyGrid(8, 8, questions);
   grid.setCategories(null);
   let points = [];
   for(let i = 0; i < 10; i++)
@@ -84,7 +84,7 @@ async function soloGame(){
     overflow: 'hidden'
   });
 
-  const grid = new JeopardyGrid(10, 9, questions);
+  const grid = new JeopardyGrid(8, 8, questions);
   grid.setCategories(null);
   let points = [];
   for(let i = 0; i < 10; i++)

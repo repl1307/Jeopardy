@@ -46,6 +46,8 @@ export class JeopardyGrid extends Box {
             console.log(index);
             cell.addClass('disabled');
             this.questions[index].points = row.points? row.points : 200;
+            console.log(index);
+            console.log(this.questions[index]);
             JeopardyGrid.questionScreen.open(this.questions[index]);
             if(!JeopardyGrid.teamsPanel) return;
             JeopardyGrid.teamsPanel.teamIndex++;

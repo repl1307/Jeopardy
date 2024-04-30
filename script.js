@@ -50,8 +50,8 @@ async function teamGame(){
   const grid = new JeopardyGrid(8, 8, questions);
   grid.setCategories(null);
   let points = [];
-  for(let i = 0; i < 10; i++)
-    points.push(200)
+  for(let i = 1; i <= 10; i++)
+    points.push(i*100)
   grid.setPointsColumn(points);
   const teamsPanel = new TeamsPanel(1);
   container.appendChild(grid);
@@ -87,8 +87,8 @@ async function soloGame(){
   const grid = new JeopardyGrid(8, 8, questions);
   grid.setCategories(null);
   let points = [];
-  for(let i = 0; i < 10; i++)
-    points.push(200)
+  for(let i = 1; i <= 10; i++)
+    points.push(i*100)
   grid.setPointsColumn(points);
   const teamsPanel = new TeamsPanel(1);
   container.appendChild(grid);

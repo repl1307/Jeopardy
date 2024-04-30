@@ -51,7 +51,7 @@ async function teamGame(){
   grid.setCategories(null);
   let points = [];
   for(let i = 1; i <= 10; i++)
-    points.push(i*100)
+    points.push(200)
   grid.setPointsColumn(points);
   const teamsPanel = new TeamsPanel(1);
   container.appendChild(grid);
@@ -88,7 +88,7 @@ async function soloGame(){
   grid.setCategories(null);
   let points = [];
   for(let i = 1; i <= 10; i++)
-    points.push(i*100);
+    points.push(200);
   grid.setPointsColumn(points);
   const teamsPanel = new TeamsPanel(1);
   container.appendChild(grid);

@@ -8,7 +8,7 @@
 
 h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 15vmin;
   margin: 0.5rem;
 }
 html, body {
@@ -17,6 +17,17 @@ html, body {
   height: 100%;
 }
 
+.zephyr-ui.page-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  font-size: 15vmin;
+  border-radius: 0;
+  z-index: 50;
+}
 .zephyr-ui button {
   background-color: rgba(0, 0, 0, 0.25);
   color: white;
@@ -36,212 +47,12 @@ html, body {
   overflow-y: auto;
   overflow-x: hidden;
   background-color: #157e35;
-  color: white;
+  color: white; 
   width: 100vw;
   height: 100%;
 }
 .main * {
   border-radius: 10px;
-}
-
-.grid {
-  flex: 1;
-  width: max(95vmin, 60vw);
-  /* aspect-ratio: 1 / 1; */
-  max-height: 95vmin;
-  box-sizing: border-box;
-  margin: 0.5rem auto;
-  padding: 0.5rem;
-  flex-direction: column;
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .5);
-  overflow: auto;
-}
-
-.row {
-  flex: 1;
-  background-color:  rgba(0, 0, 0, .25);
-  box-sizing: border-box;
-  width: 90%;
-  margin: 0 auto;
-  border-radius: 0;
-  padding: 0px 5px;
-  overflow: hidden;
-}
-
-.row:first-child {
-  border-top-left-radius: inherit;
-  border-top-right-radius: inherit;
-  padding: 5px;
-  padding-bottom: 0;
-}
-
-.row:last-child {
-  border-bottom-left-radius: inherit;
-  border-bottom-right-radius: inherit;
-  padding: 5px;
-  padding-top: 0;
-}
-
-.cell {
-  flex: 1;
-  margin: 2px;
-  min-width: 0.5rem;
-  min-height: 0.5rem;
-  aspect-ratio: 1 / 1;
-  background-color: rgba(255, 255, 255, .25);
-  font-size: 2.5vmin;
-}
-
-.cell:hover {
-  background-color: rgba(255, 255, 255, .15);
-}
-
-.cell.first-col-cell {
-  /* flex: 0; */
-}
-.cell.disabled {
-  user-select: none;
-  pointer-events: none;
-  background-color: rgba(255, 0, 0, 0);
-  /* border: 1px solid rgba(255, 255, 255, 0.5); */
-}
-.question-screen {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  flex-direction: column;
-  border: 1px solid;
-  background-color: #157e35;
-  color: white;
-  margin: 0.25rem;
-  box-sizing: border-box;
-  padding: 1rem;
-  width: 95vmin;
-  height: 85vmin;
-  overflow: hidden;
-  transition: all 0.5s;
-}
-
-.question-screen.hidden {
-  top: -100%;
-}
-.backdrop {
-  background-color: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  border-radius: 0;
-}
-.question-screen > * {
-  margin: 0;
-  padding: 0;
-}
-
-.close-button {
-  z-index: 2;
-  align-self: flex-end;
-  padding: 5px;
-  font-size: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.25);
-  color: white;
-  margin-bottom: 0.5rem;
-}
-.question {
-  font-size: 3.75vmin;
-  flex: 0;
-  user-select: none;
-}
-
-.answers {
-  position: relative;
-  flex: 1;
-  font-size: 3vmin;
-  flex-direction: column;
-  margin: 0.75rem;
-  /* justify-content: space-between; */
-  gap: 5px;
-}
-.answers > * {
-  background-color: rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-  padding: 5px;
-}
-.answers > *:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.correct-panel, .fail-panel {
-  transition: all 0.25s;
-  opacity: 1;
-  pointer-events: all;
-  justify-content: center;
-  text-align: center;
-  padding: 0;
-  padding-top: 1.5rem;
-  margin: 0;
-  flex-direction: column;
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  font-size: 12vmin;
-}
-
-.correct-panel {
-  background-color: #31b931;
-}
-.correct-panel >  *, .fail-panel > * {
-  padding: 0;
-  margin: 0;
-}
-.correct-panel svg, .fail-panel svg {
-  display: block;
-  width: 25%;
-  aspect-ratio: 1 / 1;
-  margin: 0 auto;
-}
-.correct-panel svg {
-  color: green;
-}
-.fail-panel {
-  background-color: #b93153;
-}
-
-.fail-panel svg {
-  color: maroon;
-}
-
-.correct-panel.hidden, .fail-panel.hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-.answer {
-  z-index: 2;
-  font-size: 4vmin;
-  position: relative;
-  flex: 1;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  padding: 5px;
-}
-.answer-cover {
-  position: absolute;
-  top: -8px;
-  left: -8px;
-  width: calc(100% + 16px);
-  height: calc(100% + 16px);
-  background-color: #165a2a;
-}
-
-.answer-cover.hidden {
-  top: 150%;
-  /* left: calc(100% + 16px); */
-  transition: all 0.25s;
 }
 
 .team-panel {

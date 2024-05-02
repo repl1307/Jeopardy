@@ -24,11 +24,12 @@ export class QuestionData {
       points: 0
     }
     let question = structuredClone(questionTemplate);
-    
+
+    const baseData = [];
     for(let i = 0; i < lines.length; i++){
       if(lines[i].includes('Q:')){
         if(i > 0){
-          this.data.push(structuredClone(question));
+          baseData.push(structuredClone(question));
           question = structuredClone(questionTemplate);
         }
         question.question = lines[i].replace('Q:', '').trim();
@@ -40,7 +41,14 @@ export class QuestionData {
       }
       question.answers.push(lines[i]);
     }
-    this.data.push(structuredClone(question));
+    baseData.push(structuredClone(question));
+    
+    //shuffle data
+    while(baseData.length > 0){
+      const randIndex = Math.floor(Math.random()*baseData.length);
+      this.data.push(baseData[randIndex]);
+      baseData.splice(randIndex, 1);
+    }
     //console.log(this.data);
   }
 }

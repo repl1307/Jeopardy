@@ -15,7 +15,10 @@ export class TeamsPanel extends Box {
     this.addTeamButton = new Box('button').setText('Add Team');
     this.addTeamButton.addClass('add-team-button');
     this.addTeamButton.addEventListener('click', e => {
-      this.addTeam(this.teams.length+1);
+      if(this.teams.length < 50)
+        this.addTeam(this.teams.length+1);
+      else
+        alert('There can be at most 50 teams!');
     });
     this.appendChild(this.addTeamButton);
     

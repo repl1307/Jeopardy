@@ -6,7 +6,7 @@ Algorithm
 IP
 Pseudocode
 
-Q: one or more programming language statements that control the flow of a computer program. Examples: If/Else structure or a loop structure.
+Q: one or more programming language statements that direct the flow of a computer program. Examples: If/Else structure or a loop structure.
 Control Structure
 
 NOT gate
@@ -25,7 +25,7 @@ Internet
 Q: sequence of instructions that control the computer. To run, it must be loaded into the computer's memory where the CPU executes it one instruction at a time.
 Program
 
-modeling
+Application
 raster
 Program
 lossy compression
@@ -49,15 +49,15 @@ Software
 Q: a computer that can run many different programs (e.g. a smartphone).
 General purpose computer
 
-megapixel
+Mainframe computer
 General purpose computer
-Query
+Turing Machine
 CPU
 
 Q: a computer that has a fixed program ( e.g. a calculator, a watch, a car's brakes)
 Special purpose computer
 
-Binary Number
+Dedicated Computing device
 data network
 Data Abstraction
 Special purpose computer
@@ -70,7 +70,7 @@ CPU
 Memory
 Data Sources
 
-Q: Random Access Memory- also called main memory stores the computer's programs and data temporarily while power is on.
+Q: The main memory - stores the computer's programs and data temporarily while power is on.
 RAM
 
 RAM
@@ -78,23 +78,24 @@ NOT gate
 Abstraction
 OCR: optical character recognition
 
-Q: Central Processing Unit is the hardware that carries out the instructions of a computer program. It is made up of 3 main parts: the control unit (CU), the arithmetic and register. The CU processes the program's instructions, the ALU (arithmetic logic unit) performs the arithmetic and logic operations and the register stores intermediate data during program execution.
+Q: The hardware that carries out the instructions of a computer program. It is made up of 3 main parts: the control unit (CU), the arithmetic and register. The CU processes the program's instructions, the ALU (arithmetic logic unit) performs the arithmetic and logic operations and the register stores intermediate data during program execution.
 CPU
 Byte
-Moore's Law
+Motherboard
 CPU
-Variable
+RAM
 
 Q: bring data and programs into the computer (e.g. mouse, keyboard)
 Input devices
+
 Input devices
 cryptography
-Moore's Law
+Receivers
 Integrated circuit
 
 Q: transmit data to other computers to users (e.g. printer, monitor, speaker)
 Output devices
-render
+Data transmitters
 TCP/IP ((Transmission Control Protocol/Internet Protocol)
 Output devices
 Internet
@@ -102,28 +103,28 @@ Internet
 Q: houses the computer's main electronic components
 Motherboard
 Motherboard
-Event-Driven Programming
+CPU
 cryptography
 User Interface
 
 Q: the computer's electrical components are composed of these very tiny integrated circuits.
 Chips
 EDR
-Iteration/Repetition
+Circuits
 Chips
-cryptography
+Latches
 
 Q: packed with millions of electronic components
 Integrated circuit
 Algorithm
 Moore's Law
 Integrated circuit
-network
+Motherboard
 
 Q: a binary digit, the smallest unit of data, a 1 or a 0.
 Bit
 Output devices
-raster
+Byte
 lossless compression
 Bit
 
@@ -131,12 +132,12 @@ Q: is equal to 8 bits.
 Byte
 Control Structure
 Byte
-network
+Chunk
 General purpose computer
 
 Q: a programming language that is human readable (app inventor) and provides the programmer with easy to understand abstractions.
 High-level language
-Moore's Law
+Processed Language
 Hardware
 High-level language
 ASCII
@@ -144,8 +145,8 @@ ASCII
 Q: a programming language that is machine readable (binary code), closer to the machine hardware and provides abstractions that are difficult for the programmer to understand.
 Machine language (or low-level language)
 Machine language (or low-level language)
-Hardware
-Event-Driven Programming
+Python
+High-level language
 General purpose computer
 
 Q: a software that translates source code (human readable) into binary code.
@@ -153,7 +154,7 @@ Compiler
 Algorithm
 Compiler
 Integrated circuit
-Moore's Law
+Binary Translator
 
 Q: program or group of programs designed for end users such as Firefox, Excel, Word, etc.
 Applications

@@ -47,12 +47,13 @@ async function teamGame(){
     overflow: 'hidden'
   });
   
-  const grid = new JeopardyGrid(8, 8, questions);
+  const grid = new JeopardyGrid(10, 9, questions);
   grid.setCategories(null);
   let points = [];
-  for(let i = 1; i <= 10; i++)
-    points.push(200)
+  for(let i = 10; i >= 1; i--)
+    points.push(i*100);
   grid.setPointsColumn(points);
+  JeopardyGrid.mode = 'teams';
   const teamsPanel = new TeamsPanel(1);
   container.appendChild(grid);
   container.appendChild(teamsPanel);
@@ -84,12 +85,13 @@ async function soloGame(){
     overflow: 'hidden'
   });
 
-  const grid = new JeopardyGrid(8, 8, questions);
+  const grid = new JeopardyGrid(10, 9, questions);
   grid.setCategories(null);
   let points = [];
-  for(let i = 1; i <= 10; i++)
-    points.push(200);
+  for(let i = 10; i >= 1; i--)
+    points.push(i*100);
   grid.setPointsColumn(points);
+  JeopardyGrid.mode = 'solo';
   const teamsPanel = new TeamsPanel(1);
   container.appendChild(grid);
   container.appendChild(teamsPanel);
@@ -97,6 +99,7 @@ async function soloGame(){
 
   const questionScreen = new QuestionScreen();
   questionScreen.hide();
+  
   return [ navbar, container, questionScreen.backdrop];
 }
 

@@ -1,0 +1,52 @@
+.home-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+  transition: top 1s;
+  justify-content: center;
+  align-items: center;
+}
+.home-page.hidden {
+  top: 110%;
+}
+
+.zephyr-ui.animated-square {
+  height: 10vh;
+  width: 10vh;
+  max-width: 10vh;
+  max-height: 10vh;
+  background-color: rgba(255, 255, 255, 0.25);
+  position: fixed;
+  top: 0;
+  left: -10vh;
+  scale: 0.9;
+  border-radius: 0;
+  transition: all 1s;
+  animation: slideAcross 8s linear infinite;
+}
+/* .zephyr-ui.animated-square:hover {
+  background-color: rgba(0, 64, 255, .25) !important;
+  scale: 1.25 !important; 
+} */
+@keyframes slideAcross {
+  0% {
+    left: -10vh;
+  }
+  /* 25% {
+    translate: 0 50px;
+  }
+  50% {
+    translate: 0 0px;
+  }
+  75% {
+    translate: 0 -50px;
+  } */
+  100% {
+    left: 100%;
+    transform: rotateZ(-360deg);
+  }
+}

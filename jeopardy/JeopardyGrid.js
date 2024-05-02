@@ -3,9 +3,20 @@ import Box from '../ui/core/Box.js';
 export class JeopardyGrid extends Box {
   static questionScreen;
   static teamsPanel;
+  static mode; //teams or solo
+  static transition(grid){
+    const overlay = new Box().addClass('grid-overlay');
+    grid.appendChild(overlay);
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        overlay.addClass('hidden');
+      }, 500);
+    });
+  }
   constructor(rowCount, columnCount, questions=null){
     super();
-    this.addClass('grid')
+    JeopardyGrid.transition(this);
+    this.addClass('grid');
     this.rows = [];
     this.cells = [];
     this.categoryCells = [];
@@ -41,19 +52,16 @@ export class JeopardyGrid extends Box {
 
         if(isQuestionCell){
           let index = questionCount;
+
           this.questions[index].points = (rowCount-i+1)*100;
           cell.addEventListener('click', e => {
             console.log(index);
-            cell.addClass('disabled');
+            if(JeopardyGrid.mode == 'solo')
+              cell.addClass('disabled');
+            else if(JeopardyGrid.mode == 'teams')
+              JeopardyGrid.questionScreen.currentCell = cell;
             this.questions[index].points = row.points? row.points : 200;
-            console.log(index);
-            console.log(this.questions[index]);
             JeopardyGrid.questionScreen.open(this.questions[index]);
-            if(!JeopardyGrid.teamsPanel) return;
-            JeopardyGrid.teamsPanel.teamIndex++;
-            if(JeopardyGrid.teamsPanel.teamIndex > JeopardyGrid.teamsPanel.teams.length-1)
-              JeopardyGrid.teamsPanel.teamIndex = 0;
-            JeopardyGrid.teamsPanel.select(JeopardyGrid.teamsPanel.teamIndex);
           });
           questionCount++;
         }
@@ -73,9 +81,19 @@ export class JeopardyGrid extends Box {
       this.categoryCells[i].setText(categories[i]);
   }
   setPointsColumn(values){
+    console.log('setting points');
+    //i is 1 to exclude categories row
     for(let i = 0; i < this.pointCells.length; i++){
       this.pointCells[i].setText(values[i]+' points');
-      this.rows[i].points = values[i];
+      this.rows[i+1].points = values[i];
+      console.log(this.rows[i])
     }
+  }
+  static updateTurns(){
+    if(!JeopardyGrid.teamsPanel) return;
+    JeopardyGrid.teamsPanel.teamIndex++;
+    if(JeopardyGrid.teamsPanel.teamIndex > JeopardyGrid.teamsPanel.teams.length-1)
+      JeopardyGrid.teamsPanel.teamIndex = 0;
+    JeopardyGrid.teamsPanel.select(JeopardyGrid.teamsPanel.teamIndex);
   }
 }
